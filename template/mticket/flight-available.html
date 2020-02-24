@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>M-Ticket Index</M-Ticket></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Tiket">
+    <meta name="theme-color" content="#0064d2">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/offcanvas.css">
+    <title>Booking Flights, Hotels, Tour, etc</title>
+  </head>
+  <body class="pt-0">
+    <!-- Menu Top -->
+    <div class="flight-header">
+        <div class="banner-apps yellow" hidden>
+        <div class="wrap-flex">
+            <div class="dismiss-ads">
+            <a>×</a>
+            </div>
+            <div class="logo-tiket dismiss">
+            <img src="logo.png" alt="logo" style="width: 37px; height: 37px;">
+            </div>
+            <div class="text-note">Harga termurah hanya di App!</div>
+            <div class="action"><a class="btn btn-action" href="#" rel="nofollow">INSTAL</a></div>
+        </div>
+        </div>
+        <div class="rowbar">
+            <div class="title">
+                <div class="col-xs-6">
+                <i class="fa fa-chevron-left"></i>
+                </div>
+                <div class="col-xs-6 pl-3">
+                <span>Flight Results</span>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!-- Menu Top end -->
+    <!-- Content -->
+
+    <div class="text-center" style="position: relative;display: block;top: 100px;"><h4>Under Development</h4></div>
+    
+    <!-- Content end -->
+    
+    <!-- Footer -->    
+    <footer class="footer">
+      <div class="text-light justify-content-center text-center pt-4 pb-3">
+        <div classs="row container p-0">
+          <h6 class="small">Available App</h6>
+          <div class="col-xs-6 footer-icon"><img src="./img/google.png"></div>
+          <div class="col-xs-6 footer-icon"><img src="./img/appstore.png"></div>
+        </div>
+        <h6 class="small">Follow us</h6>
+        <div class="social pb-3">
+          <li class="socialicons"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li class="socialicons"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="socialicons"><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <li class="socialicons"><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </div>
+        <p class="copyright">Copyright &copy; 2020 Allrights reserved.</p>
+      </div>
+    </footer>
+    <div class="footer-masking"></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script>
+
+      $('.origin').on('click', function() {
+        $('#pilih-tujuan').slideUp('fast');
+            $('#pilih-tujuan').slideDown(function() {
+                $('#pilih-tujuan').hide();
+            });
+        });
+
+
+      // hide roundtrip date  
+      function showReturn() {
+        document.getElementsByClassName("hideReturnFlightDate").display = "block";
+      }
+
+    </script>
+  </body>
+</html>
