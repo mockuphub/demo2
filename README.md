@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# website
 
-ISM website projects
-=======
-# demo2
->>>>>>> 81c627c0c5667a5de6a17266ddfad6216a173d7a
-=======
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/mockuphub/demo2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
